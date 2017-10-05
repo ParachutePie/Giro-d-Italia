@@ -1,0 +1,345 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	background-color: white;
+	font-family: "Raleway", sans-serif;
+}
+
+.start {
+	
+	margin: 15px;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	
+}
+
+.start li {
+	
+	font-weight: bold;
+	letter-spacing:2px;
+	padding: 10px;
+	
+}
+
+.start a {
+	
+	text-decoration:none;
+	color: Black;
+	-webkit-transition: all 0.5s ease-out;
+
+	
+}
+
+.start a:hover {
+
+	background-color: Black;
+	color: white;
+	-webkit-transition: all 0.1s;
+}
+#head-image {
+
+	background-image: url("./Cinque.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1100px;
+	width: 100%;
+	padding: 50px 0;
+	
+	
+}
+
+#head-image-route {
+
+	background-image: url("./Route.png");
+	background-size: cover;
+	background-repeat: repeat;
+	height: 1245px;
+	width: 1327px;
+	padding-top: 100px;
+	margin: auto;
+}
+
+#head-image-wir {
+
+	background-image: url("./wir.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: 1300px;
+	padding-top: 100px;
+	margin: auto;
+	
+}
+
+.head-image-text {
+	
+	opacity: 1;
+	text-align: right;
+	color: white;
+	padding: 0 10px;
+	font-size: 12px;
+	margin: -40px auto;
+ }
+
+
+ #route {
+ 	 color: black;
+	 margin: -85px auto;
+ }
+
+ #wir {
+ 	 color: black;
+	 margin: -90px auto;
+ }
+
+ #subtitle-wir {
+ 
+	font-color: black;
+	font-weight: 500%;
+	text-align: left;
+	margin: 650px auto;
+
+ }
+
+
+ #main-header {
+	
+	margin: 50px auto;
+ }
+
+ #main-header h1 {
+ 
+	text-align: center;
+	font-weight: bold;
+	font-size: 55px;
+	color: Black;
+	text-transform: uppercase;
+ }
+
+ #main-header h2 {
+ 
+	text-align: center;
+	font-size: 30px;
+	color: DarkGray;
+	font-style: italic;
+	font-weight: 40%;
+	margin: 20px 0px 10px 0px;
+ }
+
+ #main-text {
+ 	 
+	 text-align: center;
+	 font-size: 20px;
+	 color: Grey;
+
+	 padding: 10px 20px;
+	 line-height: 35px;
+	 margin: 50px 750px;
+	 
+}
+
+.destination-list {
+
+	text-align: center;
+	border: 2px solid royalblue;
+	font-weight: bold;
+	margin: 20px auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	list-style-position: inside;
+
+}
+
+.destination-list a {
+
+	text-decoration:none;
+	color: grey;
+}
+
+h3 {
+
+	border-bottom: 1px solid LightGrey;
+	border-top: 1px solid LightGrey;
+	margin: 5px;
+
+}
+
+div.Wir-Tabelle {
+
+	display: table;
+	width: 75%;
+	border: 5px hidden black;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+div.Spalte {
+
+	display: table-cell;
+	border: 5px hidden black;
+	padding: 10px;
+	
+}
+
+.Spalte h4 {
+
+	text-align: center;
+	color: grey;
+	font-size: 25px;
+	font-weight: 80%;
+	border-bottom: 1px solid LightGrey;
+	border-top: 1px solid LightGrey;
+	margin-bottom: 15px;
+}
+
+.Spalte p {
+
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	color: Grey;
+	padding: 10px 100px;
+	line-Height: 30px;
+}
+
+img.Portrait {
+
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#img-dest {
+	
+	border: 2px solid black;
+	width: 50%;
+	height: 750px;
+	margin: 250px auto 50px auto;
+	padding: 20px 20px;
+}
+
+.all-imag {
+
+	margin:auto;
+	padding: 0 22px;
+	position: center;
+}
+
+.Diashow {
+
+	text-align: center;
+	margin: 50px auto;
+	height: 50%;
+}
+
+.mySlides {
+
+	width: 100%;
+	height: 1200px;
+}
+
+.icons img {
+
+	height: 256px;
+	width: 256px;
+}
+
+.icons div {
+
+	display: inline;
+	margin: 0 150px;
+}
+
+.icons {
+
+	position: relative;
+	left: 150px;
+	margin: 110px auto;
+}
+
+.highlights h3 {
+
+	text-align: center;
+	font-size: 45px;
+	padding: 5px auto;
+	margin: 20px auto;
+	color: Black;
+	border: 0px hidden;
+}
+
+.highlights h6 {
+
+	text-align: center;
+	font-size: 30px;
+	color: DarkGray;
+	margin: 10px;
+}
+
+.highlights p {
+
+	text-align: center;
+	margin: 15px 610px;
+	font-size: 25px;
+}
+
+.copy {
+
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	border-top: 3px solid LightGrey;
+	padding: 10px 8px;
+
+}
+
+.copy-icons {
+
+	float: bottom-left;
+	color: black;
+	font-weight: normal;
+	padding: 10px 8px;
+	position: relative;
+	top: 60px;
+}
+
+#socialmedia-fb {
+
+	float: right;
+	padding: 10px 8px;
+	position: relative;
+	bottom: 80px;
+}
+
+
+

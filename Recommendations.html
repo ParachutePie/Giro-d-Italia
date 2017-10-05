@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+	<head>	
+		<title> Giro d'Italia </title>
+		<link href="./Giro.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+		<link href="./flagge-italien.gif" type="image/vnd.microsoft.ico" rel="icon">
+		
+	</head>
+
+<body>
+
+	<nav class="start">
+		<ul>	
+		  <li> <a href="./index.html">Die Reise</a> </li>
+		  <li> <a href="./Route.html" >Die Route</a> </li>
+		  <li> <a href="./WhoWeAre.html">Wer wir sind</a></li>
+		  <li> <a href="./Bilder.html">Impressionen</a></li>
+		  <li> <a href="#main-header">Empfehlungen und Links</a></li>
+		 </ul>
+	</nav>
+
+	<div class="Diashow">
+  <img class="mySlides" src="http://villaeur.it/wp-content/uploads/2017/01/ponte_roma_villa-eur.jpg" >
+  <img class="mySlides" src="./Cinque.jpg" >
+  <img class="mySlides" src="http://www.cortedeimedici.it/files-sbbasic/sr_cortedeimedici_it/panorama__1_.jpg?w=2048&h=1365.jpg" >
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+	<div id="main-header">
+		<h1> Empfehlungen und Links </h1>
+		<h2> Geheimtipps für Alles </h2>
+	</div>
+
+	<div class="icons">
+		<div>
+		<a href="#essen">
+		<img  src="./nomnom.png" alt="Icon-Essen" </a> </img>
+		</a>
+		</div>
+		<div>
+		<a href="#bars">
+		<img src="./Bar.png" alt="Icon-Bar">
+		</a>
+		</div>
+		<div>
+		<a href="#sights">
+		<img src="./Sights.png" alt="Icon-Sights">
+		</a>
+		</div>
+		<div>
+		<a href="#disco">
+		<img src="./Disco.png" alt="Icon-Disco">
+		</a>
+		</div>
+	</div>
+
+<div class="highlights">
+	<div id="essen">
+	<h3> Restaurants </h3>
+	<h6>Die besten Restauraunts für kulinarische Highlights! </h6>
+	<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+	</p>
+	</div>
+
+
+
+	<div id="bars">
+	<h3> Bars und Cafés </h3>
+	<h6> Die besten Bars und Cafés um gemütlich einen Espresso zu schlürfen oder ein kühles Bier zu genießen!</h6>
+	<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+	</p>
+	</div>
+
+	<div id="sights">
+	<h3> Sehenswürdigkeiten </h3>
+	<h6>Diese Orte müsst ihr gesehen haben! </h6>
+	<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+	</p>
+	</div>
+	<div id="disco">
+	<h3> Nachtclubs und Discotheken </h3>
+	<h6> Die besten Orte um nachts die Sau rauszulassen! </h6>
+	<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+	</p>
+	</div>
+
+</div>
+
+<div class="footer">
+		<p class="copy"> &copy; Tobias Lübbert 2017  </p>
+		<p class="copy-icons"> Icon made by Freepik from www.flaticon.com </p>
+		<a href ="https://de-de.facebook.com/" target="_blanket"> <img id="socialmedia-fb" src ="./facebook.png" alt="fb-icon" </img> </a>
+	</div>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
