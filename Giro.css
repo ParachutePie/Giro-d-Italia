@@ -58,7 +58,7 @@ body {
 
 #head-image-route {
 
-	background-image: url("./Route.png");
+	background-image: url("./Route.PNG");
 	background-size: cover;
 	background-repeat: repeat;
 	height: 1245px;
@@ -69,7 +69,7 @@ body {
 
 #head-image-wir {
 
-	background-image: url("./wir.jpg");
+	background-image: url("./Wir.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
